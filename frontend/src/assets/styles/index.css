@@ -1,0 +1,122 @@
+main {
+    min-height: 80vh;
+}
+
+.rating span {
+    margin: 0.1rem;
+}
+
+.rating svg {
+    color: #f8e825;
+}
+
+.rating-text {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding-left: 0.5rem;
+}
+
+.product-title {
+    height: 2.5em;
+    /* Set a fixed height */
+    overflow: hidden;
+    /* Hide overflow content */
+    text-overflow: ellipsis;
+    /* Add ellipsis for long text */
+    white-space: nowrap;
+    /* Prevent wrapping */
+}
+
+table td,
+table th {
+    text-align: center;
+}
+
+.review {
+    margin-top: 30px;
+}
+
+.review h2 {
+    font-size: 24px;
+    background: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.review button {
+    margin-top: 10px;
+}
+
+.carousel-caption {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header{
+    background-color: none;
+}
+
+.navbar {
+    background-color: #11212D !important;
+    height: 90px;
+}
+
+.footer {
+    background-color: #253745 !important;
+    color: white;
+}
+
+.main {
+    background-image: radial-gradient(circle, #CCD0CF, #9BA8AB, #4A5C6A);
+}
+
+.pcards:hover {
+    background-color: #e2e6e5;
+}
+
+/* custom loading spinner */
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #f3f3f3;
+    /* Light grey */
+    border-top: 10px solid #383636;
+    /* Black */
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+    margin: auto;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #9BA8AB;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    /* background-clip: content-box; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #4A5C6A;
+}
